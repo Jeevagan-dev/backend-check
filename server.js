@@ -10,7 +10,7 @@ const verify = jwt ;
 const app = express();
 const port = 5000;
 app.use(cors({
-  origin : ['https://frontend-check.onrender.com'],
+  origin : ['https://frontend-check1.onrender.com'],
   methods : ['GET','POST'],
   credentials : true
 }))
